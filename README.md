@@ -2,6 +2,14 @@
 
 This is a portfolio website that we are building for ourselves. Feel free to fork this and use for your own, please do attribute us.
 
+This repo uses a [starter pack for eleventy](https://github.com/clenemt/eleventy-webpack).
+To see how it works you can read [TEMPLATE-README.md]
+
+One question you might think is why the heck do you need webpack for a simple landing page ?
+To be honest you don't need it, but here it contributes some really great developer experience,
+while contributing almost nothing to the production build bundle also we get babel for bundling up things.
+So in a way using webpack is justified.
+
 ## Design
 These are the design files
 

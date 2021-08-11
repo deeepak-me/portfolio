@@ -4,8 +4,10 @@ This is a portfolio website that we are building for ourselves. Feel free to for
 
 ## Design
 These are the design files
+
 ### Mobile
-![Mobile Design](design/mobile-pixel_2_xl.svg)
+[Mobile Design](design/mobile-pixel_2_xl.svg)
+
 ### Desktop
 WIP
 

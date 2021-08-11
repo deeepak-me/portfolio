@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="{{ htmlClass }}" lang="{{ site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{% if title %}{{ title }} · {{ site.title }}{% else %}{{ site.title or site.name}}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ description or site.description }}">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    {# Open graph related #}
+    <meta property="og:title" content="{{ title or site.title or site.name }}" />
+    <meta property="og:type" content="{{ type or site.type }}" />
+    <meta property="og:url" content="{{ url or site.url }}" />
+    <meta property="og:image" content="{{ image or site.image }}" />
+    <meta property="og:site_name" content="{{ name or site.name }}" />
+    <meta property="og:description" content="{{ description or site.description }}" />
+
+    <link rel="stylesheet" href="{% webpack 'main.css' %}">
+  </head>
+  <body class="{{ bodyClass }}">
+    <main>
+      {{ content | safe }}
+    </main>
+
+    <footer>
+      <p><a href="{{ site.url }}">{% icon "github" %}eleventy-webpack</a> - <time datetime="{{ build.timestamp | formatISO }}">{{ build.timestamp | format("dd LLL yyyy") }}</time></p>
+    </footer>
+    <script async defer src="{% webpack 'main.js' %}"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+.service-card {
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    width: 170px;
+    height: 170px;
+    border: 1px solid #1C64F2;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1B1F3B;
+    margin-top: 20px;
+}
+
+.service-card-icon .icon {
+    width: 48px;
+    height: auto;
+    color: #1C64F2;
+}

@@ -1,3 +1,5 @@
-<button class="btn">
-    Let’s Talk
-</button>
+{% macro button(text='Lorem Ips')%}
+  <button class="btn">
+    {{ text }}
+  </button>
+{% endmacro %}

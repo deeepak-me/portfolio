@@ -4,5 +4,7 @@ title: Hello world
 htmlClass: html
 bodyClass: body
 ---
-{%include "components/button/button.njk"%}
+{% from "components/button/button.njk" import button %}
+
+{{button("testing the button")}}
 {%include "components/service-card/service-card.njk"%}

@@ -1,4 +1,6 @@
-<div class="service-card">
-  <div  class="service-card-icon">  {% icon "cart" %} </div>
-  <div class="service-text">Frontend Development</div>
-</div>
+{% macro serviceCard(service="Lorem", icon="cart") %}
+  <div class="service-card">
+    <div  class="service-card-icon"> {% icon icon %} </div>
+    <div class="service-text">{{service}}</div>
+  </div>
+{% endmacro %}

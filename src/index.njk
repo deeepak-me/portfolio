@@ -5,6 +5,7 @@ htmlClass: html
 bodyClass: body
 ---
 {% from "components/button/button.njk" import button %}
+{% from "components/service-card/service-card.njk" import serviceCard %}
 
 {{button("testing the button")}}
-{%include "components/service-card/service-card.njk"%}
+{{serviceCard("frontend development", "cart")}}

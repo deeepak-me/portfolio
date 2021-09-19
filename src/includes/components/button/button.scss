@@ -1,9 +1,18 @@
 .btn {
     border-radius: 6px;
+    border: none;
     background: #0B42C1;
     color: white;
     font-weight: 600;
     font-family: Poppins;
     font-style: normal;
     padding: 14px 25px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
 }

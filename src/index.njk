@@ -6,6 +6,7 @@ bodyClass: body
 ---
 {% from "components/button/button.njk" import button %}
 {% from "components/service-card/service-card.njk" import serviceCard %}
+{%include "components/client-review-card/client-review-card.njk"%}
 
 {{button("testing the button")}}
 {{serviceCard("frontend development", "cart")}}

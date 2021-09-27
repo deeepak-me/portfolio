@@ -2,5 +2,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 6px;
+    font-family: 'Roboto';
+}
+
 @import '../../includes/components/button/button.scss';
-@import'../../includes/components/service-card/service-card.scss';
+@import '../../includes/components/service-card/service-card.scss';
+@import '../../includes/components/client-review-card/client-review-card.scss';

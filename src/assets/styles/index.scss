@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 14px;
+}
+
 body {
     background-color: white;
     display: flex;
@@ -12,6 +16,11 @@ body {
     font-family: 'Roboto';
 }
 
+p {
+    line-height: 25px;
+}
+
 @import '../../includes/components/button/button.scss';
 @import '../../includes/components/service-card/service-card.scss';
 @import '../../includes/components/client-review-card/client-review-card.scss';
+@import '../../includes/components/project-card/project-card.scss';

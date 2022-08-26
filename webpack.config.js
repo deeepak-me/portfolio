@@ -59,20 +59,6 @@ module.exports = {
           'sass-loader'
         ]
       },
-      {
-        test: /\.(png|jpe?g|gif|svg)$/i,
-        type: 'asset',
-        generator: {
-          filename: `images/${isDev ? '[name][ext]' : '[contenthash][ext]'}`
-        }
-      },
-      {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i,
-        type: 'asset/resource',
-        generator: {
-          filename: `fonts/${isDev ? '[name][ext]' : '[contenthash][ext]'}`
-        }
-      }
     ]
   },
   resolve: {

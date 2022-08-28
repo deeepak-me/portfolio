@@ -6,7 +6,8 @@ html {
     font-size: 14px;
 }
 
-body {
+
+/* body {
     background-color: white;
     display: flex;
     justify-content: center;
@@ -14,14 +15,38 @@ body {
     min-height: 100vh;
     border-radius: 6px;
     font-family: "Roboto";
-}
+} */
 
 p {
     line-height: 25px;
 }
 
-h1 {
-    color: red;
+
+/* portfolio */
+
+.portfolio {
+    width: 411px;
+    display: block;
+    margin: 0px auto;
+    background-color: #F1F5F9;
+}
+
+
+/* search-form */
+
+.search-form {
+    display: flex;
+    align-items: center;
+    transform-origin: top;
+}
+
+.search-form input {
+    width: 379px;
+    height: 64px;
+    margin-left: 16px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
 }
 
 

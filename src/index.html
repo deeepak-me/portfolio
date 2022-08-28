@@ -17,28 +17,34 @@
 
 <body>
     <!--<h1>Test</h1>-->
-    <div>
+    <div class="portfolio">
+        <!--hero section-->
+        <section class="hero">
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="search here..">
+            </div>
+        </section>
         <!--profile card-->
-        <div class="profile-photo-card">
+        <section class="profile-photo-card">
             <div id="pro-one" class="bg-pattern"></div>
             <div class="profile-image">
                 <img src="assets/images/profile.jpg" alt="">
             </div>
             <div id="pro-two" class="bg-pattern"></div>
-        </div>
+        </section>
         <!--myself card-->
-        <div class="myself-card">
+        <section class="myself-card">
             <div class="myself-intro">Hi, my name is</div>
             <div class="myself-name">Lorem Ipsum.</div>
             <div class="myself-content">Lorem Ipsum dolor sit amet consectus adipiscing.</div>
             <p class="myself-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus donec mattis neque morbi. Sed cursus metus urna commodo, ornare dui ut. Eu bibendum est, aliquam fermentum, nam justo, amet, lectus morbi. </P>
-        </div>
+        </section>
         <!--button card-->
         <div>
             <button class="btn">Lorem ipsum</button>
         </div>
         <!--more about me card-->
-        <div class="about-me-panel">
+        <section class="about-me-panel">
             <div class="me-tit">More About Me</div>
             <div class="paragraph">
                 <div class="one">Lorem <span class="italic"> dolor sit amet</span>, consectetur adipiscing elit. Sit amet accumsan, molestie mauris, vitae duis. Lobortis et sodales porta in. Porttitor accumsan massa mattis et facilisis malesuada mi a faucibus. Viverra
@@ -48,9 +54,9 @@
                      dui purus adipiscing</span> amet, blandit leo, mauris eget. Condimentum libero bibendum integer mauris vitae in tincidunt id. Quam pharetra vitae vitae magnis nisl tristique. Massa elit a, odio vitae, blandit lacus.
                 </div>
             </div>
-        </div>
+        </section>
         <!--skills-->
-        <div class="skills-card">
+        <section class="skills-card">
             <div class="skill-tit">Skills</div>
             <p class="skill-des">These are the languages, frameworks, tools and technologies that I work with</p>
             <div class="skills">
@@ -90,9 +96,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!--experiance card-->
-        <div class="experience-card">
+        <section class="experience-card">
             <div class="exp-tittle">Experience</div>
             <div class="exp-first">
                 <div class="exp-company">Random Company</div>
@@ -117,81 +123,83 @@
                     <li class="exp-points">Nulla nec fermentum cursus erat egestas dictumst erat sit feugiat.</li>
                 </ul>
             </div>
-        </div>
+        </section>
         <!--service card-->
-        <div class="service-card">
+        <section class="service-card">
             <div class="service-card-icon">
                 <img src="assets/icons/cart.svg" alt="">
             </div>
             <div class="service-text">Frontend Developement</div>
-        </div>
+        </section>
 
         <!--project card-->
-        <div class="project-panel">
-            <div class="project-image">
-                <img src="assets/images/project.jpg" alt="">
-            </div>
-            <div class="project-about">
-                <h3 class="project-title">Custom E-commerce Frontend </h3>
-
-                <div class="project-details">
-                    <p> ipsum dolor sit amet, consectetur adipiscing elit. Ut sed ut tristique tortor orci mattis. Blandit mattis amet nunc molestie sed ultrices arcu nulla. Aliquam feugiat volutpat id vulputate ipsum volutpat ac eget.</p>
+        <section>
+            <div class="project-panel">
+                <div class="project-image">
+                    <img src="assets/images/project.jpg" alt="">
                 </div>
+                <div class="project-about">
+                    <h3 class="project-title">Custom E-commerce Frontend </h3>
 
-                <div class="project-stack">
-                    <span>VueJS</span>
-                    <span class="second">Shopify API</span>
-                </div>
-                <div class="project-links">
-                    <div class="project-link">
-                        <div class="project-icon">
-                            <img src="assets/icons/code.svg" alt="">
-                        </div>
-                        <a href="#!">Source code</a>
+                    <div class="project-details">
+                        <p> ipsum dolor sit amet, consectetur adipiscing elit. Ut sed ut tristique tortor orci mattis. Blandit mattis amet nunc molestie sed ultrices arcu nulla. Aliquam feugiat volutpat id vulputate ipsum volutpat ac eget.</p>
                     </div>
-                    <div class="project-link">
-                        <div class="project-icon">
-                            <img src="assets/icons/visibility.svg" alt="">
-                        </div>
-                        <a href="google.com">Website</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="project-panel">
-            <div class="project-image">
-                <img src="assets/images/project.jpg" alt="">
-            </div>
-            <div class="project-about">
-                <h3 class="project-title">Custom E-commerce Frontend </h3>
 
-                <div class="project-details">
-                    <p> ipsum dolor sit amet, consectetur adipiscing elit. Ut sed ut tristique tortor orci mattis. Blandit mattis amet nunc molestie sed ultrices arcu nulla. Aliquam feugiat volutpat id vulputate ipsum volutpat ac eget.</p>
-                </div>
-
-                <div class="project-stack">
-                    <span>VueJS</span>
-                    <span class="second">Shopify API</span>
-                </div>
-                <div class="project-links">
-                    <div class="project-link">
-                        <div class="project-icon">
-                            <img src="assets/icons/code.svg" alt="">
-                        </div>
-                        <a href="#!">Source code</a>
+                    <div class="project-stack">
+                        <span>VueJS</span>
+                        <span class="second">Shopify API</span>
                     </div>
-                    <div class="project-link">
-                        <div class="project-icon">
-                            <img src="assets/icons/visibility.svg" alt="">
+                    <div class="project-links">
+                        <div class="project-link">
+                            <div class="project-icon">
+                                <img src="assets/icons/code.svg" alt="">
+                            </div>
+                            <a href="#!">Source code</a>
                         </div>
-                        <a href="google.com">Website</a>
+                        <div class="project-link">
+                            <div class="project-icon">
+                                <img src="assets/icons/visibility.svg" alt="">
+                            </div>
+                            <a href="google.com">Website</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="project-panel">
+                <div class="project-image">
+                    <img src="assets/images/project.jpg" alt="">
+                </div>
+                <div class="project-about">
+                    <h3 class="project-title">Custom E-commerce Frontend </h3>
+
+                    <div class="project-details">
+                        <p> ipsum dolor sit amet, consectetur adipiscing elit. Ut sed ut tristique tortor orci mattis. Blandit mattis amet nunc molestie sed ultrices arcu nulla. Aliquam feugiat volutpat id vulputate ipsum volutpat ac eget.</p>
+                    </div>
+
+                    <div class="project-stack">
+                        <span>VueJS</span>
+                        <span class="second">Shopify API</span>
+                    </div>
+                    <div class="project-links">
+                        <div class="project-link">
+                            <div class="project-icon">
+                                <img src="assets/icons/code.svg" alt="">
+                            </div>
+                            <a href="#!">Source code</a>
+                        </div>
+                        <div class="project-link">
+                            <div class="project-icon">
+                                <img src="assets/icons/visibility.svg" alt="">
+                            </div>
+                            <a href="google.com">Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!--client review card-->
-        <div class="client-says">
+        <section class="client-says">
             <div class="client-name">
                 <div class="client-image">
                     <img src="assets/images/client.jpg" alt="">
@@ -212,10 +220,10 @@
                     Tristique auctor congue aliquet et auctor feugiat adipiscing. Convallis lectus tincidunt adipiscing a sagittis sit pharetra bibendum tincidunt. Etiam volutpat ac mi porttitor elementum consectetur in.
                 </p>
             </div>
-        </div>
+        </section>
 
         <!--contact card-->
-        <div class="contact-panel">
+        <section class="contact-panel">
             <div class="name">
                 <p class="tittle">Name<span class="star">*</span></p>
                 <input type="text" placeholder="Allen Francis" class="form-name form-input">
@@ -230,7 +238,7 @@
                 <textarea id="content" rows="10" placeholder="Let me know your thoughts !" class="form-thought form-input"></textarea>
 
             </div>
-        </div>
+        </section>
 
         <!--send button-->
         <div>
@@ -238,7 +246,7 @@
         </div>
 
         <!--copyright card-->
-        <div class="copyright-card">
+        <section class="copyright-card">
             <div class="socialmedia-icons">
                 <div class="social-icon"><img src="assets/icons/email.svg" alt=""></div>
                 <div class="social-icon"><img src="assets/icons/github.svg" alt=""></div>
@@ -249,7 +257,7 @@
                 Copyright 2021 | Allen Francis
             </div>
 
-        </div>
+        </section>
 
     </div>
 </body>

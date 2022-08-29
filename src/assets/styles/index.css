@@ -29,17 +29,18 @@ p {
     display: block;
     margin: 0px auto;
     background-color: #F1F5F9;
+    /* padding: 16px; */
 }
 
 
 /* hero */
 
 .hero {
-    width: 411px;
+    /* width: 411px; */
     height: auto;
     left: 0px;
     top: 0px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 
@@ -60,6 +61,7 @@ p {
     align-items: center;
     border: none;
     border-radius: 6px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .profile-image img {
@@ -76,7 +78,7 @@ p {
     width: 379px;
     height: 230px;
     margin-left: 16px;
-    margin-top: 50px;
+    margin-top: 64px;
 }
 
 
@@ -177,6 +179,7 @@ p {
     font-family: Poppins;
     font-style: normal;
     padding: 14px 25px;
+    margin-left: 16px;
 }
 
 .btn:hover {
@@ -224,6 +227,10 @@ p {
 
 
 /*skills card*/
+
+.skills-card {
+    margin: 16px 16px;
+}
 
 .skill-tit {
     font-family: Poppins;
@@ -273,6 +280,10 @@ p {
 
 
 /*experiance card*/
+
+.experience-card {
+    margin: 64px 16px;
+}
 
 .exp-tittle {
     font-family: Poppins;

@@ -4,6 +4,7 @@
 
 html {
     font-size: 14px;
+    box-sizing: border-box;
 }
 
 body {
@@ -35,9 +36,10 @@ p {
 
 .hero {
     width: 411px;
-    height: 823px;
+    height: auto;
     left: 0px;
     top: 0px;
+    background-color: yellow;
 }
 
 
@@ -60,13 +62,32 @@ p {
     border-radius: 6px;
 }
 
+.profile-image img {
+    width: 207px;
+    height: 278px;
+    margin-top: 120px;
+    margin-left: 102px;
+    background: url(.jpg), #1B1F3B;
+    box-shadow: 0px 10px 20px rgba(28, 100, 242, 0.04), 0px 2px 6px rgba(28, 100, 242, 0.04), 0px 0px 1px rgba(28, 100, 242, 0.04);
+    border-radius: 6px;
+}
+
+.myself-card {
+    width: 379px;
+    height: 230px;
+    margin-left: 16px;
+    margin-top: 50px;
+}
+
 
 /*profile card*/
 
+
+/* 
 .profile-photo-card {
     position: relative;
     padding-top: 0px;
-    margin: 102px;
+    margin: 5px;
 }
 
 .profile-image img {
@@ -98,11 +119,13 @@ p {
     background-repeat: repeat;
     background-size: 10px;
     position: absolute;
-}
+} */
 
 
 /*myself card*/
 
+
+/* 
 .myself-intro {
     font-family: Poppins;
     font-style: normal;
@@ -110,6 +133,11 @@ p {
     font-size: 12px;
     line-height: 18px;
     color: #282D56;
+    position: absolute;
+    width: 379px;
+    height: 230px;
+    left: 16px;
+    top: 438px;
 }
 
 .myself-name {
@@ -135,7 +163,7 @@ p {
     font-style: normal;
     font-weight: normal;
     color: #1B1F3B;
-}
+} */
 
 
 /*button card*/
@@ -161,6 +189,10 @@ p {
 
 
 /*more about me*/
+
+.about-me-panel {
+    margin: 64px 16px;
+}
 
 .me-tit {
     font-family: Poppins;

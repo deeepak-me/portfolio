@@ -1,132 +1,137 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 14px;
-  box-sizing: border-box;
+    font-size: 14px;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  border-radius: 6px;
-  font-family: "Roboto";
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 6px;
+    font-family: "Roboto";
 }
 
 p {
-  line-height: 25px;
+    line-height: 25px;
 }
+
 
 /* portfolio */
 
 .portfolio {
-  width: 411px;
-  display: block;
-  margin: 0px auto;
-  background-color: #f1f5f9;
-  padding: 16px;
+    width: 411px;
+    display: block;
+    margin: 0px auto;
+    background-color: #f1f5f9;
+    padding: 16px;
 }
+
 
 /* hero */
 
 .hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 /* search-form */
 
 .search-form {
-  display: flex;
-  align-items: center;
-  transform-origin: top;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    transform-origin: top;
+    width: 100%;
+    margin-bottom: 24px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .search-form input {
-  width: 100%;
-  height: 64px;
-  border: none;
-  border-radius: 6px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 100%;
+    height: 64px;
+    border: none;
+    border-radius: 6px;
 }
 
-.profile-image img {
-  width: 207px;
-  height: 278px;
-  background: url(.jpg), #1b1f3b;
-  box-shadow: 0px 10px 20px rgba(28, 100, 242, 0.04),
-    0px 2px 6px rgba(28, 100, 242, 0.04), 0px 0px 1px rgba(28, 100, 242, 0.04);
-  border-radius: 6px;
-}
 
-.myself-card {
-  width: 379px;
-  height: 230px;
-}
+/* .profile-image img {
+    width: 207px;
+    height: 278px;
+    background: url(.jpg), #1b1f3b;
+    box-shadow: 0px 10px 20px rgba(28, 100, 242, 0.04), 0px 2px 6px rgba(28, 100, 242, 0.04), 0px 0px 1px rgba(28, 100, 242, 0.04);
+    border-radius: 6px;
+} */
+
 
 /*profile card*/
 
 .profile-photo-card {
-  position: relative;
-  padding-top: 0px;
-  margin-top: 40px;
+    position: relative;
+    padding-top: 0px;
+    margin-top: 40px;
 }
 
 .profile-image img {
-  position: relative;
-  width: 207px;
-  height: 278px;
-  border-radius: 6px;
-  object-fit: cover;
-  box-shadow: 0px 10px 20px rgba(28, 100, 242, 0.04),
-    0px 2px 6px rgba(28, 100, 242, 0.04), 0px 0px 1px rgba(28, 100, 242, 0.04);
-  z-index: 3;
+    position: relative;
+    width: 207px;
+    height: 278px;
+    border-radius: 6px;
+    object-fit: cover;
+    box-shadow: 0px 10px 20px rgba(28, 100, 242, 0.04), 0px 2px 6px rgba(28, 100, 242, 0.04), 0px 0px 1px rgba(28, 100, 242, 0.04);
+    z-index: 3;
 }
 
 #pro-one {
-  top: -15px;
-  left: -15px;
+    top: -15px;
+    left: -15px;
 }
 
 #pro-two {
-  right: -20px;
-  bottom: -20px;
+    right: -23px;
+    bottom: -10px;
 }
 
 .bg-pattern {
-  width: 140px;
-  height: 241px;
-  background: url("../../assets/images/bg-pattern.svg");
-  background-repeat: repeat;
-  background-size: 10px;
-  position: absolute;
+    width: 140px;
+    height: 241px;
+    background: url("../../assets/images/bg-pattern.svg");
+    background-repeat: repeat;
+    background-size: 10px;
+    position: absolute;
 }
 
-/*myself card*/
 
-/* 
+/* myself-card */
+
+.myself {
+    margin-top: 24px;
+    margin-bottom: 84px;
+}
+
+.myself-card {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
 .myself-intro {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     color: #282D56;
-    position: absolute;
-    width: 379px;
-    height: 230px;
-    left: 16px;
-    top: 438px;
 }
 
 .myself-name {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
     font-size: 32px;
@@ -135,7 +140,7 @@ p {
 }
 
 .myself-content {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -144,425 +149,435 @@ p {
 }
 
 .myself-descr {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
     color: #1B1F3B;
-} */
+}
+
 
 /*button card*/
 
 .btn {
-  border-radius: 6px;
-  border: none;
-  background: #0b42c1;
-  color: white;
-  font-weight: 600;
-  font-family: Poppins;
-  font-style: normal;
-  padding: 14px 25px;
-  margin-left: 16px;
+    border-radius: 6px;
+    border: none;
+    background: #0b42c1;
+    color: white;
+    font-weight: 600;
+    font-family: Poppins;
+    font-style: normal;
+    padding: 14px 25px;
 }
 
 .btn:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .btn::first-letter {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
+
 
 /*more about me*/
 
 .about-me-panel {
-  margin: 64px 16px;
+    margin: 64px 16px;
 }
 
 .me-tit {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  color: #1b1f3b;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1b1f3b;
 }
 
 .paragraph {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 25px;
-  color: #1b1f3b;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #1b1f3b;
 }
 
 .one {
-  margin-top: 8px;
-  margin-bottom: 14px;
+    margin-top: 8px;
+    margin-bottom: 14px;
 }
 
 .italic {
-  color: #333a68;
-  font-style: italic;
-  font-weight: bold;
+    color: #333a68;
+    font-style: italic;
+    font-weight: bold;
 }
+
 
 /*skills card*/
 
 .skills-card {
-  margin: 16px 16px;
+    margin: 16px 16px;
 }
 
 .skill-tit {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  color: #1b1f3b;
-  margin-bottom: 7px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1b1f3b;
+    margin-bottom: 7px;
 }
 
 .skill-des {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  color: #1b1f3b;
-  margin: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #1b1f3b;
+    margin: 0px;
 }
 
 .skills {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .skill-set {
-  margin-right: 24px;
-  margin-top: 20px;
+    margin-right: 24px;
+    margin-top: 20px;
 }
 
 .skill-name {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 21px;
-  color: #0b42c1;
-  margin-bottom: 8px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    color: #0b42c1;
+    margin-bottom: 8px;
 }
 
 .skill-list {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 19px;
-  color: #1b1f3b;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    color: #1b1f3b;
 }
+
 
 /*experiance card*/
 
 .experience-card {
-  margin: 64px 16px;
+    margin: 64px 16px;
 }
 
 .exp-tittle {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  color: #1b1f3b;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1b1f3b;
 }
 
 .exp-company {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #1b1f3b;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1b1f3b;
 }
 
 .exp-duration {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 14px;
-  text-transform: uppercase;
-  color: #0b42c1;
-  margin: 6px 0 6px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #0b42c1;
+    margin: 6px 0 6px 0;
 }
 
 .exp-role {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-  color: #000000;
-  margin-top: 8px;
-  margin-bottom: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin-top: 8px;
+    margin-bottom: 16px;
 }
 
 .exp-list {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-  color: #000000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
 }
 
 .exp-first {
-  margin-top: 16px;
-  margin-bottom: 20px;
+    margin-top: 16px;
+    margin-bottom: 20px;
 }
 
 .exp-points {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
+
 
 /*service card*/
 
 .service-card {
-  border-radius: 6px;
-  background-color: #ffffff;
-  width: 170px;
-  height: 170px;
-  border: 1px solid #1c64f2;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
-    0px 0px 1px rgba(0, 0, 0, 0.04);
-  padding: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    border-radius: 6px;
+    background-color: #ffffff;
+    width: 170px;
+    height: 170px;
+    border: 1px solid #1c64f2;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .service-text {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 24px;
-  text-align: center;
-  text-transform: capitalize;
-  color: #1b1f3b;
-  margin-top: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1b1f3b;
+    margin-top: 20px;
 }
 
 .service-card-icon {
-  width: 48px;
-  height: auto;
-  color: #1c64f2;
+    width: 48px;
+    height: auto;
+    color: #1c64f2;
 }
+
 
 /*project card*/
 
 .project-panel {
-  width: 379px;
-  height: 428px;
-  background: #ffffff;
-  border-radius: 6px;
+    width: 379px;
+    height: 428px;
+    background: #ffffff;
+    border-radius: 6px;
 }
 
 .project-image img {
-  border-radius: 6px 6px 0px 0px;
-  width: 379px;
-  height: 189px;
-  object-fit: cover;
+    border-radius: 6px 6px 0px 0px;
+    width: 379px;
+    height: 189px;
+    object-fit: cover;
 }
 
 .project-about {
-  padding: 16px 16px;
+    padding: 16px 16px;
 }
 
 .project-title {
-  font-family: Poppins;
-  font-weight: 600;
-  font-size: 16px;
-  color: #1b1f3b;
-  margin: 0px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1b1f3b;
+    margin: 0px;
 }
 
 .project-details {
-  font-style: normal;
-  font-weight: normal;
-  color: #333a68;
+    font-style: normal;
+    font-weight: normal;
+    color: #333a68;
 }
 
 .project-stack {
-  font-weight: 300;
-  font-size: 12px;
-  color: rgba(27, 31, 59, 0.8);
-  margin-top: 16px;
+    font-weight: 300;
+    font-size: 12px;
+    color: rgba(27, 31, 59, 0.8);
+    margin-top: 16px;
 }
 
 .project-stack span:nth-child(2) {
-  margin-left: 8px;
+    margin-left: 8px;
 }
 
 .project-links {
-  font-weight: 300;
-  color: #1b1f3b;
-  display: flex;
-  margin-top: 24px;
+    font-weight: 300;
+    color: #1b1f3b;
+    display: flex;
+    margin-top: 24px;
 }
 
 .project-links div:nth-child(2) {
-  margin-left: 24px;
+    margin-left: 24px;
 }
 
 .project-icon {
-  color: #1b1f3b;
+    color: #1b1f3b;
 }
 
 .project-link {
-  display: flex;
+    display: flex;
 }
 
 .project-link a {
-  font-family: Poppins;
-  color: #1b1f3b;
-  margin-left: 8px;
-  text-decoration: none;
-  text-decoration-color: #1c64f2;
+    font-family: Poppins;
+    color: #1b1f3b;
+    margin-left: 8px;
+    text-decoration: none;
+    text-decoration-color: #1c64f2;
 }
 
 .project-link a:visited {
-  color: #1b1f3b;
+    color: #1b1f3b;
 }
 
 .project-link a:hover {
-  color: #3f83f8;
+    color: #3f83f8;
 }
+
 
 /*client review*/
 
 .client-says {
-  min-width: 315px;
-  max-width: 320px;
-  min-height: 268px;
-  padding: 16px;
+    min-width: 315px;
+    max-width: 320px;
+    min-height: 268px;
+    padding: 16px;
 }
 
 .client-name {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-content: space-between;
-  font-weight: 500;
-  font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .client-image img {
-  width: 45px;
-  height: 45px;
-  border-radius: 6px;
-  object-fit: cover;
+    width: 45px;
+    height: 45px;
+    border-radius: 6px;
+    object-fit: cover;
 }
 
 .client-details {
-  display: flex;
-  flex-direction: column;
-  margin-left: 8px;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    justify-content: center;
 }
 
 .review {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 23px;
-  color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    color: #000000;
 }
 
 .review p:nth-child(1) {
-  margin-top: 4px;
+    margin-top: 4px;
 }
 
 .name {
-  text-transform: capitalize;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #1b1f3b;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1b1f3b;
 }
 
 .company-name {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-  color: rgba(27, 31, 59, 0.8);
-  margin-top: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(27, 31, 59, 0.8);
+    margin-top: 4px;
 }
+
 
 /* .star-icon img {
     color: #F05252;
 } */
 
 .star-icon img {
-  width: auto;
-  height: 18px;
-  margin-top: 14px;
+    width: auto;
+    height: 18px;
+    margin-top: 14px;
 }
+
 
 /* contact card */
 
 .contact-panel {
-  background-color: #ffffff;
-  border-radius: 6px;
+    background-color: #ffffff;
+    border-radius: 6px;
 }
 
 .tittle {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  color: #1b1f3b;
-  margin-bottom: 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    color: #1b1f3b;
+    margin-bottom: 0px;
 }
 
 .star {
-  color: red;
+    color: red;
 }
 
 .form-input {
-  background-color: #f1f5f9;
-  border-radius: 6px;
-  border: 0px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  color: rgba(27, 31, 59, 0.6);
-  width: 100%;
-  padding: 1rem;
-  font-size: 14px;
+    background-color: #f1f5f9;
+    border-radius: 6px;
+    border: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(27, 31, 59, 0.6);
+    width: 100%;
+    padding: 1rem;
+    font-size: 14px;
 }
+
 
 /* copyright card */
 
 .copyright-card {
-  text-align: center;
+    text-align: center;
 }
 
 .socialmedia-icons {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .social-icon img {
-  width: 15px;
-  height: 15px;
-  margin-right: 0.5rem;
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
 }
 
 .owner {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 14px;
-  color: #1b1f3b;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1b1f3b;
 }

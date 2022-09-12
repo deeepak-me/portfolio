@@ -295,6 +295,15 @@ p {
     color: #1b1f3b;
 }
 
+.exp-first {
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.exp-first .exp-second {
+    width: 100%;
+}
+
 .exp-company {
     font-family: Roboto;
     font-style: normal;
@@ -302,6 +311,7 @@ p {
     font-size: 14px;
     line-height: 16px;
     color: #1b1f3b;
+    /* margin-bottom: 4px; */
 }
 
 .exp-duration {
@@ -322,8 +332,8 @@ p {
     font-size: 12px;
     line-height: 14px;
     color: #000000;
-    margin-top: 8px;
-    margin-bottom: 16px;
+    margin: 8px 0 16px 0;
+    /* margin-bottom: 16px; */
 }
 
 .exp-list {
@@ -335,17 +345,30 @@ p {
     color: #000000;
 }
 
-.exp-first {
-    margin-top: 16px;
-    margin-bottom: 20px;
-}
-
 .exp-points {
     margin-bottom: 8px;
 }
 
 
 /*service card*/
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 64px;
+    width: 100%;
+}
+
+.service-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1B1F3B;
+    margin-bottom: 16px;
+}
 
 .service-card {
     border-radius: 6px;

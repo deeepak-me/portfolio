@@ -30,6 +30,9 @@ p {
     margin: 0px auto;
     background-color: #f1f5f9;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -76,6 +79,7 @@ p {
     position: relative;
     padding-top: 0px;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .profile-image img {
@@ -111,12 +115,11 @@ p {
 /* myself-card */
 
 .myself {
-    margin-top: 24px;
     margin-bottom: 84px;
+    width: 100%;
 }
 
 .myself-card {
-    margin-top: 24px;
     margin-bottom: 24px;
     width: 100%;
 }

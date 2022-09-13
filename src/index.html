@@ -1,267 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link defer rel="stylesheet" href="./assets/styles/index.css" />
+        <link defer rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+            defer
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin
+        />
+        <link
+            defer
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <title>Portfolio</title>
+        <!-- custom css file    -->
+        <link rel="stylesheet" href="assets/styles/index.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link defer rel="stylesheet" href="./assets/styles/index.css">
-    <link defer rel="preconnect" href="https://fonts.googleapis.com">
-    <link defer rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link defer href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
-    <!-- custom css file    -->
-    <link rel="stylesheet" href="assets/styles/index.css">
-
-</head>
-
-<body>
-    <!--<h1>Test</h1>-->
-    <div class="portfolio">
-        <!--hero section-->
-        <section class="hero">
-            <!--search form-->
-            <div class="search-form">
-                <input type="search" id="search-box" placeholder="">
-            </div>
-
-            <!--profile card-->
-            <div class="profile-photo-card">
-                <div id="pro-one" class="bg-pattern"></div>
-                <div class="profile-image">
-                    <img src="assets/images/profile.jpg" alt="">
+    <body>
+        <!--<h1>Test</h1>-->
+        <div class="portfolio">
+            <!--hero section-->
+            <section class="hero">
+                <!--search form-->
+                <div class="search-form">
+                    <input type="search" id="search-box" placeholder="" />
                 </div>
-                <div id="pro-two" class="bg-pattern"></div>
-            </div>
-            <!--myself card-->
-            <div class="myself-card">
-                <div class="myself-intro">Hi, my name is</div>
-                <div class="myself-name">Lorem Ipsum.</div>
-                <div class="myself-content">Lorem Ipsum dolor sit amet consectus adipiscing.</div>
-                <p class="myself-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus donec mattis neque morbi. Sed cursus metus urna commodo, ornare dui ut. Eu bibendum est, aliquam fermentum, nam justo, amet, lectus morbi. </P>
-            </div>
-            <!--button card-->
-            <div class="btn-1">
-                <button class="btn">Let's Talk</button>
-            </div>
-        </section>
-        <!--more about me card-->
-        <section class="about-me-panel">
-            <div class="me-tit">More About Me</div>
-            <div class="paragraph">
-                <div class="one">Lorem <span class="italic"> dolor sit amet</span>, consectetur adipiscing elit. Sit amet accumsan, molestie mauris, vitae duis. Lobortis et sodales porta in. Porttitor accumsan massa mattis et facilisis malesuada mi a faucibus. Viverra
-                    arcu laoreet nam id placerat. Nec lacinia ut pharetra, at turpis.
-                </div>
-                <div class="two">Magna sed tincidunt nibh felis vestibulum. Sagittis, sagittis <span class="italic">
-                     dui purus adipiscing</span> amet, blandit leo, mauris eget. Condimentum libero bibendum integer mauris vitae in tincidunt id. Quam pharetra vitae vitae magnis nisl tristique. Massa elit a, odio vitae, blandit lacus.
-                </div>
-            </div>
-        </section>
-        <!--skills-->
-        <section class="skills-card">
-            <div class="skill-tit">Skills</div>
-            <p class="skill-des">These are the languages, frameworks, tools and technologies that I work with</p>
-            <div class="skills">
-                <div class="skill-set">
-                    <div class="skill-name">Languages</div>
-                    <div class="skill-list">
-                        <div>JS</div>
-                        <div>CSS</div>
-                        <div>HTML</div>
-                        <div>Python</div>
-                        <div>C</div>
+
+                <!--profile card-->
+                <div class="profile-photo-card">
+                    <div id="pro-one" class="bg-pattern"></div>
+                    <div class="profile-image">
+                        <img src="assets/images/profile.jpg" alt="" />
                     </div>
+                    <div id="pro-two" class="bg-pattern"></div>
                 </div>
-                <div class="skill-set">
-                    <div class="skill-name">Frameworks</div>
-                    <div class="skill-list">
-                        <div>ReactJS</div>
-                        <div>VueJS</div>
-                        <div>Angular</div>
-                        <div>ExpressJS</div>
-                        <div>NodeJS</div>
-                    </div>
-                </div>
-                <div class="skill-set">
-                    <div class="skill-name">Tools</div>
-                    <div class="skill-list">
-                        <div>MongoDB</div>
-                        <div>Git&Github</div>
-                        <div>Bash</div>
-                    </div>
-                </div>
-                <div class="skill-set">
-                    <div class="skill-name">Design</div>
-                    <div class="skill-list">
-                        <div>Figma</div>
-                        <div>Wireframe</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--experiance card-->
-        <section class="experience-card">
-            <div class="exp-tittle">Experience</div>
-            <div class="exp-first">
-                <div class="exp-company">Random Company</div>
-                <div class="exp-duration">Dec 2019 - present</div>
-                <div class="exp-role">Software Developer</div>
-                <ul class="exp-list">
-                    <li class="exp-points">Nisl, ultrices leo pharetra nibh sed feugiat sit.</li>
-                    <li class="exp-points">Sed auctor condimentum vivamus pellentesque morbi facilisis.</li>
-                    <li class="exp-points">Eget enim a eget facilisis.</li>
-                    <li class="exp-points">Nulla nec fermentum cursus erat egestas dictumst erat sit feugiat.</li>
-
-                </ul>
-            </div>
-            <div class="exp-second">
-                <div class="exp-company">Another Company</div>
-                <div class="exp-duration">Dec 2019 - present</div>
-                <div class="exp-role">Junior Frontend Developer</div>
-                <ul class="exp-list">
-                    <li class="exp-points">Nisl, ultrices leo pharetra nibh sed feugiat sit.</li>
-                    <li class="exp-points">Sed auctor condimentum vivamus pellentesque morbi facilisis.</li>
-                    <li class="exp-points">Eget enim a eget facilisis.</li>
-                    <li class="exp-points">Nulla nec fermentum cursus erat egestas dictumst erat sit feugiat.</li>
-                </ul>
-            </div>
-        </section>
-        <!--service card-->
-        <section class="service-card">
-            <div class="service-card-icon">
-                <img src="assets/icons/cart.svg" alt="">
-            </div>
-            <div class="service-text">Frontend Developement</div>
-        </section>
-
-        <!--project card-->
-        <section>
-            <div class="project-panel">
-                <div class="project-image">
-                    <img src="assets/images/project.jpg" alt="">
-                </div>
-                <div class="project-about">
-                    <h3 class="project-title">Custom E-commerce Frontend </h3>
-
-                    <div class="project-details">
-                        <p> ipsum dolor sit amet, consectetur adipiscing elit. Ut sed ut tristique tortor orci mattis. Blandit mattis amet nunc molestie sed ultrices arcu nulla. Aliquam feugiat volutpat id vulputate ipsum volutpat ac eget.</p>
-                    </div>
-
-                    <div class="project-stack">
-                        <span>VueJS</span>
-                        <span class="second">Shopify API</span>
-                    </div>
-                    <div class="project-links">
-                        <div class="project-link">
-                            <div class="project-icon">
-                                <img src="assets/icons/code.svg" alt="">
-                            </div>
-                            <a href="#!">Source code</a>
+                <!--myself card-->
+                <div class="myself">
+                    <div class="myself-card">
+                        <div class="myself-intro">Hi, my name is</div>
+                        <div class="myself-name">Lorem Ipsum.</div>
+                        <div class="myself-content">
+                            Lorem Ipsum dolor sit amet consectus adipiscing.
                         </div>
-                        <div class="project-link">
-                            <div class="project-icon">
-                                <img src="assets/icons/visibility.svg" alt="">
-                            </div>
-                            <a href="google.com">Website</a>
+                        <p class="myself-descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Tellus donec mattis neque morbi. Sed cursus
+                            metus urna commodo, ornare dui ut. Eu bibendum est,
+                            aliquam fermentum, nam justo, amet, lectus morbi.
+                        </p>
+                    </div>
+                    <!--button card-->
+
+                    <button class="btn">Let's Talk</button>
+                </div>
+            </section>
+            <!--more about me card-->
+            <section class="about-me-panel">
+                <div>
+                    <div class="me-tit">More About Me</div>
+                    <div class="paragraph">
+                        <div class="one">
+                            Lorem <span class="italic"> dolor sit amet</span>,
+                            consectetur adipiscing elit. Sit amet accumsan,
+                            molestie mauris, vitae duis. Lobortis et sodales
+                            porta in. Porttitor accumsan massa mattis et
+                            facilisis malesuada mi a faucibus. Viverra arcu
+                            laoreet nam id placerat. Nec lacinia ut pharetra, at
+                            turpis.
+                        </div>
+                        <div class="two">
+                            Magna sed tincidunt nibh felis vestibulum. Sagittis,
+                            sagittis
+                            <span class="italic"> dui purus adipiscing</span>
+                            amet, blandit leo, mauris eget. Condimentum libero
+                            bibendum integer mauris vitae in tincidunt id. Quam
+                            pharetra vitae vitae magnis nisl tristique. Massa
+                            elit a, odio vitae, blandit lacus.
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-panel">
-                <div class="project-image">
-                    <img src="assets/images/project.jpg" alt="">
-                </div>
-                <div class="project-about">
-                    <h3 class="project-title">Custom E-commerce Frontend </h3>
-
-                    <div class="project-details">
-                        <p> ipsum dolor sit amet, consectetur adipiscing elit. Ut sed ut tristique tortor orci mattis. Blandit mattis amet nunc molestie sed ultrices arcu nulla. Aliquam feugiat volutpat id vulputate ipsum volutpat ac eget.</p>
-                    </div>
-
-                    <div class="project-stack">
-                        <span>VueJS</span>
-                        <span class="second">Shopify API</span>
-                    </div>
-                    <div class="project-links">
-                        <div class="project-link">
-                            <div class="project-icon">
-                                <img src="assets/icons/code.svg" alt="">
+            </section>
+            <!--skills-->
+            <section class="skills-card">
+                <div>
+                    <div class="skill-tit">Skills</div>
+                    <p class="skill-des">
+                        These are the languages, frameworks, tools and
+                        technologies that I work with
+                    </p>
+                    <div class="skills">
+                        <div class="skill-set">
+                            <div class="skill-name">Languages</div>
+                            <div class="skill-list">
+                                <div>JS</div>
+                                <div>CSS</div>
+                                <div>HTML</div>
+                                <div>Python</div>
+                                <div>C</div>
                             </div>
-                            <a href="#!">Source code</a>
                         </div>
-                        <div class="project-link">
-                            <div class="project-icon">
-                                <img src="assets/icons/visibility.svg" alt="">
+                        <div class="skill-set">
+                            <div class="skill-name">Frameworks</div>
+                            <div class="skill-list">
+                                <div>ReactJS</div>
+                                <div>VueJS</div>
+                                <div>Angular</div>
+                                <div>ExpressJS</div>
+                                <div>NodeJS</div>
                             </div>
-                            <a href="google.com">Website</a>
+                        </div>
+                        <div class="skill-set">
+                            <div class="skill-name">Tools</div>
+                            <div class="skill-list">
+                                <div>MongoDB</div>
+                                <div>Git&Github</div>
+                                <div>Bash</div>
+                            </div>
+                        </div>
+                        <div class="skill-set">
+                            <div class="skill-name">Design</div>
+                            <div class="skill-list">
+                                <div>Figma</div>
+                                <div>Wireframe</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!--client review card-->
-        <section class="client-says">
-            <div class="client-name">
-                <div class="client-image">
-                    <img src="assets/images/client.jpg" alt="">
+            </section>
+            <!--experiance card-->
+            <section class="experience-card">
+                <div>
+                    <div class="exp-tittle">Experience</div>
+                    <div class="exp-first">
+                        <div class="exp-company">Random Company</div>
+                        <div class="exp-duration">Dec 2019 - present</div>
+                        <div class="exp-role">Software Developer</div>
+                        <ul class="exp-list">
+                            <li class="exp-points">
+                                Nisl, ultrices leo pharetra nibh sed feugiat
+                                sit.
+                            </li>
+                            <li class="exp-points">
+                                Sed auctor condimentum vivamus pellentesque
+                                morbi facilisis.
+                            </li>
+                            <li class="exp-points">
+                                Eget enim a eget facilisis.
+                            </li>
+                            <li class="exp-points">
+                                Nulla nec fermentum cursus erat egestas dictumst
+                                erat sit feugiat.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="exp-second">
+                        <div class="exp-company">Another Company</div>
+                        <div class="exp-duration">Dec 2019 - present</div>
+                        <div class="exp-role">Junior Frontend Developer</div>
+                        <ul class="exp-list">
+                            <li class="exp-points">
+                                Nisl, ultrices leo pharetra nibh sed feugiat
+                                sit.
+                            </li>
+                            <li class="exp-points">
+                                Sed auctor condimentum vivamus pellentesque
+                                morbi facilisis.
+                            </li>
+                            <li class="exp-points">
+                                Eget enim a eget facilisis.
+                            </li>
+                            <li class="exp-points">
+                                Nulla nec fermentum cursus erat egestas dictumst
+                                erat sit feugiat.
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="client-details">
-                    <div class="name">client name</div>
-                    <div class="company-name">Company Name</div>
+            </section>
+            <!--service card-->
+            <section class="service">
+                <div>
+                    <div class="service-title">Services I Offer</div>
+                    <div class="service-card">
+                        <div class="service-card-icon">
+                            <img src="assets/icons/cart.svg" alt="" />
+                        </div>
+                        <div class="service-text">Frontend Developement</div>
+                    </div>
                 </div>
-            </div>
-            <div class="star">
-                <span class="star-icon"><img src="assets/icons/star.svg" alt=""><img src="assets/icons/star.svg" alt=""><img src="assets/icons/star.svg" alt=""><img src="assets/icons/star.svg" alt=""><img src="assets/icons/star.svg" alt=""></span>
-            </div>
-            <div class="review">
-                <p>
-                    In nisi vestibulum mattis pulvinar lacus phasellus hendrerit adipiscing. Venenatis nisl risus scelerisque consectetur ornare diam lectus sit.
-                </p>
-                <p>
-                    Tristique auctor congue aliquet et auctor feugiat adipiscing. Convallis lectus tincidunt adipiscing a sagittis sit pharetra bibendum tincidunt. Etiam volutpat ac mi porttitor elementum consectetur in.
-                </p>
-            </div>
-        </section>
+            </section>
 
-        <!--contact card-->
-        <section class="contact-panel">
-            <div class="name">
-                <p class="tittle">Name<span class="star">*</span></p>
-                <input type="text" placeholder="Allen Francis" class="form-name form-input">
-            </div>
-            <div class="contact-name">
-                <p class="tittle">Email<span class="star">*</span></p>
-                <input type="email" placeholder="AllenFrancis@exampl.com" class="form-email form-input">
+            <!--project card-->
+            <section class="projects">
+                <div class="project-heading">
+                    Projects in <span>Frontend Development</span>
+                </div>
+                <div>
+                    <div class="project-panel">
+                        <div class="project-image">
+                            <img src="assets/images/project.jpg" alt="" />
+                        </div>
+                        <div class="project-about">
+                            <h3 class="project-title">
+                                Custom E-commerce Frontend
+                            </h3>
 
-            </div>
-            <div class="content">
-                <p class="tittle" for="content">Content<span class="star">*</span></p>
-                <textarea id="content" rows="10" placeholder="Let me know your thoughts !" class="form-thought form-input"></textarea>
+                            <div class="project-details">
+                                <p>
+                                    ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Ut sed ut tristique tortor orci
+                                    mattis. Blandit mattis amet nunc molestie
+                                    sed ultrices arcu nulla. Aliquam feugiat
+                                    volutpat id vulputate ipsum volutpat ac
+                                    eget.
+                                </p>
+                            </div>
 
-            </div>
-        </section>
+                            <div class="project-stack">
+                                <span>VueJS</span>
+                                <span class="second">Shopify API</span>
+                            </div>
+                            <div class="project-links">
+                                <div class="project-link">
+                                    <div class="project-icon">
+                                        <img
+                                            src="assets/icons/code.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <a href="#!">Source code</a>
+                                </div>
+                                <div class="project-link">
+                                    <div class="project-icon">
+                                        <img
+                                            src="assets/icons/visibility.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <a href="google.com">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-panel">
+                        <div class="project-image">
+                            <img src="assets/images/project.jpg" alt="" />
+                        </div>
+                        <div class="project-about">
+                            <h3 class="project-title">
+                                Custom E-commerce Frontend
+                            </h3>
 
-        <!--send button-->
-        <div>
-            <button class="btn">Lorem ipsum</button>
+                            <div class="project-details">
+                                <p>
+                                    ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Ut sed ut tristique tortor orci
+                                    mattis. Blandit mattis amet nunc molestie
+                                    sed ultrices arcu nulla. Aliquam feugiat
+                                    volutpat id vulputate ipsum volutpat ac
+                                    eget.
+                                </p>
+                            </div>
+
+                            <div class="project-stack">
+                                <span>VueJS</span>
+                                <span class="second">Shopify API</span>
+                            </div>
+                            <div class="project-links">
+                                <div class="project-link">
+                                    <div class="project-icon">
+                                        <img
+                                            src="assets/icons/code.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <a href="#!">Source code</a>
+                                </div>
+                                <div class="project-link">
+                                    <div class="project-icon">
+                                        <img
+                                            src="assets/icons/visibility.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <a href="google.com">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--client review card-->
+            <section class="client-says">
+                <div class="client-name">
+                    <div class="client-image">
+                        <img src="assets/images/client.jpg" alt="" />
+                    </div>
+                    <div class="client-details">
+                        <div class="name">client name</div>
+                        <div class="company-name">Company Name</div>
+                    </div>
+                </div>
+                <div class="star">
+                    <span class="star-icon"
+                        ><img src="assets/icons/star.svg" alt="" /><img
+                            src="assets/icons/star.svg"
+                            alt="" /><img
+                            src="assets/icons/star.svg"
+                            alt="" /><img
+                            src="assets/icons/star.svg"
+                            alt="" /><img src="assets/icons/star.svg" alt=""
+                    /></span>
+                </div>
+                <div class="review">
+                    <p>
+                        In nisi vestibulum mattis pulvinar lacus phasellus
+                        hendrerit adipiscing. Venenatis nisl risus scelerisque
+                        consectetur ornare diam lectus sit.
+                    </p>
+                    <p>
+                        Tristique auctor congue aliquet et auctor feugiat
+                        adipiscing. Convallis lectus tincidunt adipiscing a
+                        sagittis sit pharetra bibendum tincidunt. Etiam volutpat
+                        ac mi porttitor elementum consectetur in.
+                    </p>
+                </div>
+            </section>
+
+            <!--contact card-->
+            <section class="contact-panel">
+                <div class="name">
+                    <p class="tittle">Name<span class="star">*</span></p>
+                    <input
+                        type="text"
+                        placeholder="Allen Francis"
+                        class="form-name form-input"
+                    />
+                </div>
+                <div class="contact-name">
+                    <p class="tittle">Email<span class="star">*</span></p>
+                    <input
+                        type="email"
+                        placeholder="AllenFrancis@exampl.com"
+                        class="form-email form-input"
+                    />
+                </div>
+                <div class="content">
+                    <p class="tittle" for="content">
+                        Content<span class="star">*</span>
+                    </p>
+                    <textarea
+                        id="content"
+                        rows="10"
+                        placeholder="Let me know your thoughts !"
+                        class="form-thought form-input"
+                    ></textarea>
+                </div>
+            </section>
+
+            <!--send button-->
+            <div>
+                <button class="btn">Lorem ipsum</button>
+            </div>
+
+            <!--copyright card-->
+            <section class="copyright-card">
+                <div class="socialmedia-icons">
+                    <div class="social-icon">
+                        <img src="assets/icons/email.svg" alt="" />
+                    </div>
+                    <div class="social-icon">
+                        <img src="assets/icons/github.svg" alt="" />
+                    </div>
+                    <div class="social-icon">
+                        <img src="assets/icons/linkedin.svg" alt="" />
+                    </div>
+                    <div class="social-icon">
+                        <img src="assets/icons/instagram.svg" alt="" />
+                    </div>
+                </div>
+                <div class="owner">Copyright 2021 | Allen Francis</div>
+            </section>
         </div>
-
-        <!--copyright card-->
-        <section class="copyright-card">
-            <div class="socialmedia-icons">
-                <div class="social-icon"><img src="assets/icons/email.svg" alt=""></div>
-                <div class="social-icon"><img src="assets/icons/github.svg" alt=""></div>
-                <div class="social-icon"><img src="assets/icons/linkedin.svg" alt=""></div>
-                <div class="social-icon"><img src="assets/icons/instagram.svg" alt=""></div>
-            </div>
-            <div class="owner">
-                Copyright 2021 | Allen Francis
-            </div>
-
-        </section>
-
-    </div>
-</body>
-
+    </body>
 </html>

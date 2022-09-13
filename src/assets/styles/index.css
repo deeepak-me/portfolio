@@ -405,11 +405,33 @@ p {
 
 /*project card*/
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 64px;
+    width: 100%;
+}
+
+.project-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1F3B;
+    margin-bottom: 16px;
+}
+
+.project-heading span {
+    color: #1c64f2;
+}
+
 .project-panel {
-    width: 379px;
-    height: 428px;
+    width: 100%;
     background: #ffffff;
     border-radius: 6px;
+    margin-bottom: 16px;
 }
 
 .project-image img {
@@ -432,14 +454,20 @@ p {
 }
 
 .project-details {
+    font-family: 'Roboto';
     font-style: normal;
-    font-weight: normal;
-    color: #333a68;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #333A68;
 }
 
 .project-stack {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 300;
     font-size: 12px;
+    line-height: 14px;
     color: rgba(27, 31, 59, 0.8);
     margin-top: 16px;
 }
@@ -468,11 +496,16 @@ p {
 }
 
 .project-link a {
-    font-family: Poppins;
-    color: #1b1f3b;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1B1F3B;
     margin-left: 8px;
-    text-decoration: none;
+    /* text-decoration: none; */
     text-decoration-color: #1c64f2;
+    text-decoration-thickness: 2px;
 }
 
 .project-link a:visited {

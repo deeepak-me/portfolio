@@ -21,6 +21,7 @@ p {
     line-height: 25px;
 }
 
+
 /* portfolio */
 
 .portfolio {
@@ -31,6 +32,7 @@ p {
     padding: 16px;
 }
 
+
 /* hero */
 
 .hero {
@@ -38,6 +40,7 @@ p {
     flex-direction: column;
     align-items: center;
 }
+
 
 /* search-form */
 
@@ -57,6 +60,7 @@ p {
     border-radius: 6px;
 }
 
+
 /*profile card*/
 
 .profile-photo-card {
@@ -72,9 +76,7 @@ p {
     height: 278px;
     border-radius: 6px;
     object-fit: cover;
-    box-shadow: 0px 10px 20px rgba(28, 100, 242, 0.04),
-        0px 2px 6px rgba(28, 100, 242, 0.04),
-        0px 0px 1px rgba(28, 100, 242, 0.04);
+    box-shadow: 0px 10px 20px rgba(28, 100, 242, 0.04), 0px 2px 6px rgba(28, 100, 242, 0.04), 0px 0px 1px rgba(28, 100, 242, 0.04);
     z-index: 3;
 }
 
@@ -96,6 +98,7 @@ p {
     background-size: 10px;
     position: absolute;
 }
+
 
 /* myself-card */
 
@@ -145,6 +148,7 @@ p {
     color: #1b1f3b;
 }
 
+
 /*button card*/
 
 .btn {
@@ -165,6 +169,7 @@ p {
 .btn::first-letter {
     text-transform: uppercase;
 }
+
 
 /*more about me*/
 
@@ -204,6 +209,7 @@ p {
     font-style: italic;
     font-weight: bold;
 }
+
 
 /*skills card*/
 
@@ -268,6 +274,7 @@ p {
 .skill-list div {
     margin-bottom: 4px;
 }
+
 
 /*experiance card*/
 
@@ -342,6 +349,7 @@ p {
     margin-bottom: 8px;
 }
 
+
 /*service card*/
 
 .service {
@@ -368,8 +376,7 @@ p {
     width: 170px;
     height: 170px;
     border: 1px solid #1c64f2;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04),
-        0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
     padding: 12px;
     display: flex;
     flex-direction: column;
@@ -394,6 +401,7 @@ p {
     height: auto;
     color: #1c64f2;
 }
+
 
 /*project card*/
 
@@ -508,16 +516,37 @@ p {
     color: #3f83f8;
 }
 
+
 /*client review*/
+
+.client {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 64px;
+    width: 100%;
+}
+
+.client-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1B1F3B;
+    margin-bottom: 32px;
+}
 
 .client-says {
     min-width: 315px;
     max-width: 320px;
     min-height: 268px;
     padding: 16px;
+    background: #FFFFFF;
+    border-radius: 6px;
 }
 
-.client-name {
+.client-info {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -536,23 +565,12 @@ p {
 .client-details {
     display: flex;
     flex-direction: column;
-    margin-left: 8px;
     justify-content: center;
+    margin-left: 8px;
 }
 
-.review {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 23px;
-    color: #000000;
-}
-
-.review p:nth-child(1) {
-    margin-top: 4px;
-}
-
-.name {
+.client-name {
+    font-family: 'Roboto';
     text-transform: capitalize;
     font-style: normal;
     font-weight: 500;
@@ -562,6 +580,7 @@ p {
 }
 
 .company-name {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -569,6 +588,20 @@ p {
     color: rgba(27, 31, 59, 0.8);
     margin-top: 4px;
 }
+
+.review {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.review p:nth-child(1) {
+    margin-top: 4px;
+}
+
 
 /* .star-icon img {
     color: #F05252;
@@ -579,6 +612,7 @@ p {
     height: 18px;
     margin-top: 14px;
 }
+
 
 /* contact card */
 
@@ -611,6 +645,7 @@ p {
     padding: 1rem;
     font-size: 14px;
 }
+
 
 /* copyright card */
 

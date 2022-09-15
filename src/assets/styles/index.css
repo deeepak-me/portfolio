@@ -111,7 +111,6 @@ p {
 
 .myself-intro {
     font-family: "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
@@ -120,7 +119,6 @@ p {
 
 .myself-name {
     font-family: "Poppins";
-    font-style: normal;
     font-weight: 800;
     font-size: 32px;
     line-height: 48px;
@@ -129,7 +127,7 @@ p {
 
 .myself-content {
     font-family: "Poppins";
-    font-style: normal;
+
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -137,8 +135,6 @@ p {
 }
 
 .myself-descr {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
@@ -154,7 +150,6 @@ p {
     color: white;
     font-weight: 600;
     font-family: Poppins;
-    font-style: normal;
     padding: 14px 25px;
 }
 
@@ -178,7 +173,6 @@ p {
 
 .me-tit {
     font-family: "Poppins";
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
@@ -187,7 +181,6 @@ p {
 
 .paragraph {
     font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
@@ -217,7 +210,6 @@ p {
 
 .skill-tit {
     font-family: Poppins;
-    font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 36px;
@@ -226,9 +218,6 @@ p {
 }
 
 .skill-des {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     color: #1b1f3b;
     margin: 0px;
@@ -249,7 +238,6 @@ p {
 
 .skill-name {
     font-family: Poppins;
-    font-style: normal;
     font-weight: 500;
     line-height: 21px;
     font-size: 14px;
@@ -258,9 +246,6 @@ p {
 }
 
 .skill-list {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     line-height: 19px;
     color: #1b1f3b;
 }
@@ -281,7 +266,6 @@ p {
 
 .exp-tittle {
     font-family: Poppins;
-    font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 36px;
@@ -298,8 +282,6 @@ p {
 }
 
 .exp-company {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -308,8 +290,6 @@ p {
 }
 
 .exp-duration {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 14px;
@@ -319,20 +299,13 @@ p {
 }
 
 .exp-role {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #000000;
     margin: 8px 0 16px 0;
-    /* margin-bottom: 16px; */
 }
 
 .exp-list {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #000000;
@@ -354,7 +327,7 @@ p {
 
 .service-title {
     font-family: "Poppins";
-    font-style: normal;
+
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
@@ -379,7 +352,7 @@ p {
 
 .service-text {
     font-family: Poppins;
-    font-style: normal;
+
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
@@ -407,7 +380,7 @@ p {
 
 .project-heading {
     font-family: "Poppins";
-    font-style: normal;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -446,8 +419,6 @@ p {
 }
 
 .project-details {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 23px;
@@ -455,8 +426,6 @@ p {
 }
 
 .project-stack {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 14px;
@@ -489,7 +458,6 @@ p {
 
 .project-link a {
     font-family: "Poppins";
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 21px;
@@ -561,9 +529,8 @@ p {
 }
 
 .client-name {
-    font-family: "Roboto";
     text-transform: capitalize;
-    font-style: normal;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -571,9 +538,6 @@ p {
 }
 
 .company-name {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: rgba(27, 31, 59, 0.8);
@@ -581,9 +545,6 @@ p {
 }
 
 .review {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 23px;
     color: #000000;
@@ -615,7 +576,6 @@ p {
 
 .contact-title {
     font-family: "Poppins";
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
@@ -641,8 +601,7 @@ p {
 
 .contact-subtitle {
     font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
+
     font-size: 14px;
     line-height: 21px;
     color: #1b1f3b;
@@ -657,9 +616,7 @@ p {
     background-color: #f1f5f9;
     border-radius: 6px;
     border: 0px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+
     color: rgba(27, 31, 59, 0.6);
     width: 100%;
     padding: 1rem;
@@ -707,8 +664,6 @@ p {
 }
 
 .owner {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 14px;

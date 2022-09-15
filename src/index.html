@@ -23,6 +23,10 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        />
         <title>Portfolio</title>
         <!-- custom css file    -->
         <link rel="stylesheet" href="assets/styles/index.css" />
@@ -304,92 +308,103 @@
             </section>
 
             <!--client review card-->
-            <section class="client-says">
-                <div class="client-name">
-                    <div class="client-image">
-                        <img src="assets/images/client.jpg" alt="" />
+            <section class="client">
+                <div class="client-title">What My Clients Say</div>
+                <div class="client-says">
+                    <div class="client-info">
+                        <div class="client-image">
+                            <img src="assets/images/client.jpg" alt="" />
+                        </div>
+                        <div class="client-details">
+                            <div class="client-name">client name</div>
+                            <div class="company-name">Company Name</div>
+                        </div>
                     </div>
-                    <div class="client-details">
-                        <div class="name">client name</div>
-                        <div class="company-name">Company Name</div>
+                    <div class="star">
+                        <span class="star-icon"
+                            ><img src="assets/icons/star.svg" alt="" /><img
+                                src="assets/icons/star.svg"
+                                alt="" /><img
+                                src="assets/icons/star.svg"
+                                alt="" /><img
+                                src="assets/icons/star.svg"
+                                alt="" /><img
+                                src="assets/icons/star.svg"
+                                alt=""
+                        /></span>
                     </div>
-                </div>
-                <div class="star">
-                    <span class="star-icon"
-                        ><img src="assets/icons/star.svg" alt="" /><img
-                            src="assets/icons/star.svg"
-                            alt="" /><img
-                            src="assets/icons/star.svg"
-                            alt="" /><img
-                            src="assets/icons/star.svg"
-                            alt="" /><img src="assets/icons/star.svg" alt=""
-                    /></span>
-                </div>
-                <div class="review">
-                    <p>
-                        In nisi vestibulum mattis pulvinar lacus phasellus
-                        hendrerit adipiscing. Venenatis nisl risus scelerisque
-                        consectetur ornare diam lectus sit.
-                    </p>
-                    <p>
-                        Tristique auctor congue aliquet et auctor feugiat
-                        adipiscing. Convallis lectus tincidunt adipiscing a
-                        sagittis sit pharetra bibendum tincidunt. Etiam volutpat
-                        ac mi porttitor elementum consectetur in.
-                    </p>
+                    <div class="review">
+                        <p>
+                            In nisi vestibulum mattis pulvinar lacus phasellus
+                            hendrerit adipiscing. Venenatis nisl risus
+                            scelerisque consectetur ornare diam lectus sit.
+                        </p>
+                        <p>
+                            Tristique auctor congue aliquet et auctor feugiat
+                            adipiscing. Convallis lectus tincidunt adipiscing a
+                            sagittis sit pharetra bibendum tincidunt. Etiam
+                            volutpat ac mi porttitor elementum consectetur in.
+                        </p>
+                    </div>
                 </div>
             </section>
 
             <!--contact card-->
-            <section class="contact-panel">
-                <div class="name">
-                    <p class="tittle">Name<span class="star">*</span></p>
-                    <input
-                        type="text"
-                        placeholder="Allen Francis"
-                        class="form-name form-input"
-                    />
-                </div>
-                <div class="contact-name">
-                    <p class="tittle">Email<span class="star">*</span></p>
-                    <input
-                        type="email"
-                        placeholder="AllenFrancis@exampl.com"
-                        class="form-email form-input"
-                    />
-                </div>
-                <div class="content">
-                    <p class="tittle" for="content">
-                        Content<span class="star">*</span>
-                    </p>
-                    <textarea
-                        id="content"
-                        rows="10"
-                        placeholder="Let me know your thoughts !"
-                        class="form-thought form-input"
-                    ></textarea>
+            <section class="contact">
+                <div class="contact-title">Contact Me</div>
+                <div class="contact-panel">
+                    <div class="contact-group">
+                        <p class="contact-subtitle">
+                            Name<span class="star">*</span>
+                        </p>
+                        <input
+                            type="text"
+                            placeholder="Allen Francis"
+                            class="form-name form-input"
+                        />
+                    </div>
+                    <div class="contact-group">
+                        <p class="contact-subtitle">
+                            Email<span class="star">*</span>
+                        </p>
+                        <input
+                            type="email"
+                            placeholder="AllenFrancis@exampl.com"
+                            class="form-email form-input"
+                        />
+                    </div>
+                    <div class="contact-content">
+                        <p class="contact-subtitle" for="content">
+                            Content<span class="star">*</span>
+                        </p>
+                        <textarea
+                            id="content"
+                            rows="10"
+                            placeholder="Let me know your thoughts !"
+                            class="form-thought form-input"
+                        ></textarea>
+                    </div>
+                    <!--send button-->
+                    <div class="send-btn">
+                        <button class="btn">Send</button>
+                    </div>
                 </div>
             </section>
-
-            <!--send button-->
-            <div>
-                <button class="btn">Lorem ipsum</button>
-            </div>
 
             <!--copyright card-->
             <section class="copyright-card">
                 <div class="socialmedia-icons">
                     <div class="social-icon">
-                        <img src="assets/icons/email.svg" alt="" />
+                        <a href="#" class="fa fa-envelope"></a>
                     </div>
                     <div class="social-icon">
-                        <img src="assets/icons/github.svg" alt="" />
+                        <a href="#" class="fab fa-github"></a>
                     </div>
                     <div class="social-icon">
-                        <img src="assets/icons/linkedin.svg" alt="" />
+                        <a href="#" class="fab fa-linkedin"></a>
                     </div>
                     <div class="social-icon">
-                        <img src="assets/icons/instagram.svg" alt="" />
+                        <a href="#" class="fab fa-instagram"></a>
                     </div>
                 </div>
                 <div class="owner">Copyright 2021 | Deepak Krishnan E</div>

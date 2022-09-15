@@ -528,12 +528,12 @@ p {
 }
 
 .client-title {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    color: #1B1F3B;
+    color: #1b1f3b;
     margin-bottom: 32px;
 }
 
@@ -542,7 +542,7 @@ p {
     max-width: 320px;
     min-height: 268px;
     padding: 16px;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 6px;
 }
 
@@ -570,7 +570,7 @@ p {
 }
 
 .client-name {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     text-transform: capitalize;
     font-style: normal;
     font-weight: 500;
@@ -580,7 +580,7 @@ p {
 }
 
 .company-name {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -590,7 +590,7 @@ p {
 }
 
 .review {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -625,13 +625,13 @@ p {
 }
 
 .contact-title {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
     margin-bottom: 16px;
-    color: #1B1F3B;
+    color: #1b1f3b;
 }
 
 .contact-panel {
@@ -708,7 +708,7 @@ p {
 .social-icon a {
     width: 16px;
     height: 16px;
-    color: #1B1F3B;
+    color: #1b1f3b;
     line-height: 14px;
     text-decoration: none;
 }

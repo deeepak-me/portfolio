@@ -616,17 +616,48 @@ p {
 
 /* contact card */
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 64px;
+    width: 100%;
+}
+
+.contact-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+    color: #1B1F3B;
+}
+
 .contact-panel {
     background-color: #ffffff;
     border-radius: 6px;
+    padding: 16px;
+    width: 100%;
 }
 
-.tittle {
+.contact-group {
+    margin-bottom: 16px;
+}
+
+.contact-content {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.contact-subtitle {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
     color: #1b1f3b;
-    margin-bottom: 0px;
+    margin-bottom: 4px;
 }
 
 .star {
@@ -644,6 +675,12 @@ p {
     width: 100%;
     padding: 1rem;
     font-size: 14px;
+    line-height: 16px;
+}
+
+.send-btn {
+    display: flex;
+    justify-content: end;
 }
 
 

@@ -620,7 +620,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 64px;
+    margin-bottom: 100px;
     width: 100%;
 }
 
@@ -695,10 +695,26 @@ p {
     justify-content: center;
 }
 
-.social-icon img {
-    width: 15px;
-    height: 15px;
-    margin-right: 0.5rem;
+.social-icon {
+    margin-bottom: 6px;
+    margin-right: 12px;
+}
+
+.social-icon:nth-child(4) {
+    margin-right: 0;
+}
+
+.social-icon a {
+    width: 16px;
+    height: 16px;
+    color: #1B1F3B;
+    line-height: 14px;
+    text-decoration: none;
+}
+
+.social-icon a:hover {
+    cursor: pointer;
+    color: #3f83f8;
 }
 
 .owner {

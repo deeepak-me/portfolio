@@ -641,12 +641,23 @@ p {
     width: 100%;
 }
 
+.contact-group {
+    margin-bottom: 16px;
+}
+
+.contact-content {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
 .contact-subtitle {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
     color: #1b1f3b;
-    margin-bottom: 0px;
+    margin-bottom: 4px;
 }
 
 .star {
@@ -664,6 +675,12 @@ p {
     width: 100%;
     padding: 1rem;
     font-size: 14px;
+    line-height: 16px;
+}
+
+.send-btn {
+    display: flex;
+    justify-content: end;
 }
 
 

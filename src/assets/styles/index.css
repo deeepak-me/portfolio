@@ -495,15 +495,53 @@ p {
     color: #1b1f3b;
     margin-bottom: 32px;
 }
+.client-container {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    /* min-width: 315px;
+    max-width: 320px;
+    min-height: 268px; */
+}
 
-.client-says {
+.client-slide {
+    min-width: 315px;
+    max-width: 360px;
+    min-height: 268px;
+    /* padding: 16px;
+    background: #ffffff; */
+    border-radius: 6px;
+    display: flex;
+    transform: rotateX(0);
+    transition: transform 0.25s;
+}
+
+.client-card {
     min-width: 315px;
     max-width: 320px;
     min-height: 268px;
     padding: 16px;
     background: #ffffff;
     border-radius: 6px;
+    margin-left: 48px;
 }
+
+.client-card1 {
+    margin-left: 0px;
+}
+
+.nxt-btn {
+    margin-top: 16px;
+}
+
+/* .client-says {
+    min-width: 315px;
+    max-width: 320px;
+    min-height: 268px;
+    padding: 16px;
+    background: #ffffff;
+    border-radius: 6px;
+} */
 
 .client-info {
     display: flex;
